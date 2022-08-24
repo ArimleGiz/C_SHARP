@@ -31,7 +31,7 @@ void NumberOfEven(int[] array)
         if (array[i] % 2 == 0)
             count++;
     }
-    Console.Write($"Количество четных членов массива = {count}");
+    Console.Write($"Количество четных чисел массива = {count}");
 }
 
 Console.Write("Введите длину желаемого массива ");
